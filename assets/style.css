@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
-
 body {
   background-color: beige;
   font-family: "Merriweather", serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh; /* Ensure the body takes up the full height of the viewport */
+  margin: 0;
 }
 
 form {
@@ -18,4 +18,15 @@ form {
   box-shadow: 1px 0px 12px 3px rgba(0, 0, 0, 0.35);
   -webkit-box-shadow: 1px 0px 12px 3px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 1px 0px 12px 3px rgba(0, 0, 0, 0.35);
+}
+
+#userInput {
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1.1em;
 }
