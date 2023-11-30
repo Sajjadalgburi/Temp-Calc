@@ -50,14 +50,22 @@ input[type="number"] {
   align-items: center; /* Center the content vertically */
   justify-content: center; /* Center the content horizontally */
   margin: auto;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-transform: uppercase;
   font-family: monospace;
   font-weight: bold;
+  transition: 0.3s;
+  border: none;
 }
 
 #submitButton,
 #toFarenhite,
 #toCelcius {
   cursor: pointer;
+}
+
+#submitButton:hover {
+  color: white;
+  background-color: #6b4647;
+  border-radius: 20px;
 }
