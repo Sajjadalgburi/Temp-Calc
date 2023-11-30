@@ -42,3 +42,22 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+#submitButton {
+  height: 40px; /* Increase the height for better visual appearance */
+  width: 150px;
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
+  margin: auto;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#submitButton,
+#toFarenhite,
+#toCelcius {
+  cursor: pointer;
+}
